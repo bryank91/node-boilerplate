@@ -1,18 +1,17 @@
 {
   "development": {
-    "username": "root",
-    "password": "helloworld",
-    "database": "blogger",
-    "host": "localhost",
+    "username": "sql12319789",
+    "password": "RrN9B3EsUH",
+    "database": "sql12319789",
+    "host": "sql12.freemysqlhosting.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "testdb",
-    "host": "localhost",
-    "dialect": "mysql",
-    "logging": false
+    "username": "sql12319789",
+    "password": "RrN9B3EsUH",
+    "database": "sql12319789",
+    "host": "sql12.freemysqlhosting.net",
+    "dialect": "mysql"
   },
   "production": {
     "use_env_variable": "JAWSDB_URL",
