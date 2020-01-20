@@ -7,7 +7,7 @@
     "start": "node server.js",
     "lint": "eslint --quiet .",
     "fix": "eslint --fix .",
-    "test": "mocha test"
+    "test": "mocha --timeout 15000"
   },
   "license": "ISC",
   "dependencies": {
