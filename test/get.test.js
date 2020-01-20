@@ -17,6 +17,9 @@ describe("GET /api/examples", function() {
   // Before each test begins, create a new request server for testing
   // & delete all examples from the db
 
+  // required for slower db perhaps
+  this.timeout(10000); 
+
   beforeEach(function() {
     request = chai.request(server);
     // return db.sequelize.sync({ force: true });
