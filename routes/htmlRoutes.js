@@ -24,4 +24,9 @@ module.exports = function(app) {
   app.get("*", function(req, res) {
     res.render("404");
   });
+
+  // test endpoint
+  app.get("/test", function(req, res) {
+    res.json({ msg: "All good" });
+  });
 };
