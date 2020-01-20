@@ -52,7 +52,6 @@ describe("GET /api/examples", function() {
           .to.be.an("object")
           .that.includes({ text: "Second Example", description: "Second Description" });
 
-        // finish testing, lets destroy all the test cases
         // The `done` function is used to end any asynchronous tests
         done();
       });
@@ -62,4 +61,3 @@ describe("GET /api/examples", function() {
 
 // finish testing, lets destroy all the test cases
 db.Example.destroy({ truncate : true, cascade: false })
-
