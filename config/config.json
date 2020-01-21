@@ -8,7 +8,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "JAWSDB_URL",
+    "host": "sql12.freemysqlhosting.net",
     "dialect": "mysql"
   }
 }
