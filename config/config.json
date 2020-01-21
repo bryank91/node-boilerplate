@@ -1,18 +1,11 @@
 {
   "development": {
-    "username": "root",
-    "password": "helloworld",
-    "database": "blogger",
-    "host": "localhost",
+    "host": "sql12.freemysqlhosting.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "testdb",
-    "host": "localhost",
-    "dialect": "mysql",
-    "logging": false
+    "host": "sql12.freemysqlhosting.net",
+    "dialect": "mysql"
   },
   "production": {
     "use_env_variable": "JAWSDB_URL",
